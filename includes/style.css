@@ -1,0 +1,40 @@
+#form{margin-top:10%;box-shadow:2px 2px 30px;border-radius:4%;padding:2%;background-color:transparent;}
+
+
+.navbar {margin-bottom: 0;background-color:#ecf0f1;z-index: 9999;border: 0;font-size: 12px !important;line-height: 1.42857143 !important; letter-spacing: 4px;   border-radius: 0;}
+.navbar li a, .navbar .navbar-brand {color:#000 !important;}
+.navbar-nav li a:hover, .navbar-nav li.active a {color: #f4511e !important;background-color: #fff !important;}
+.navbar-toggle{background-color:#434;}
+.navbar-toggle span{background-color:#fff;}
+
+#proform{margin-top:10%;padding:5%;margin-bottom:4%;box-shadow:2px 2px 30px;min-width:260px;}
+#m{background-color:rgba(12,60,210,.3);color:#FFF;font-family:sans-serif;margin-top:10%;}
+#userdetail{background-color:#16a085; color:#FFF;opacity:.8;}
+#about{background-color:#27ae60;color:#ecf0f1;padding:4%;}
+#ndcol{background-color:#3bc342;height:400px;}
+#pp{padding-left:5%;margin-left:auto;padding-top:24px;}
+#noti{font-size:15px;background-color:#bdc3c7;color:#fff;box-shadow:3px 3px 4px;margin-top:12%;padding-left:3px;}
+#not{margin-top:12%;}
+.a{display:none;}
+.allusers{padding:20px;background-color:#2ecc71;height:500px;color:#fff;}
+#inboxu{padding:3px;color:#fff;text-align: center;}
+#inboxu:hover{color:#f1c40f;padding:3px;}
+
+#inboxu:active{color:#f1c40f;padding:3px;}
+
+#message{overflow:auto;height:450px;max-height:500px;min-height:450px;}
+.messages{padding:20px;background-color:#16a085;color:#fff;}
+
+@media only screen and (max-width:768px){
+
+#userdetailtop{
+	margin-top:8%;
+}
+.allusers{padding:20px;background-color:#2ecc71;height:auto;margin-bottom:6%;}
+
+.messages{padding:20px;background-color:#16a085;margin-bottom:6%;}
+#con{margin-bottom:4%;}
+#noti{font-size:12px;color:#fff;box-shadow:3px 3px 4px;margin-top:15%;}
+
+#pp{padding-left:5%;margin-left:auto;padding-top:20px;}
+}
